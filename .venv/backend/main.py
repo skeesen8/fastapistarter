@@ -79,6 +79,8 @@ async def get_model(model_name:ModelName):
         return {"model_name":model_name, "message": "LeCNN all the Images"}
     return{"model_name":model_name,"message":"Have SOme ReSiduALS"}
 
+test add 
+
 # @app.get("/items/")
 # async def read_item(skip: int = 0, limit: int = 10):
 #     return fake_items_db[skip : skip + limit]
